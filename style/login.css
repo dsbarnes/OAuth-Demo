@@ -1,0 +1,44 @@
+*{
+  font-family: Avenir, Arial, sans-serif;
+  background-color: black;
+}
+
+div#header{
+  text-align: center;
+  color: white;
+}
+div#header h3{
+  font-size: 32px;
+}
+div#header p{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+div#buttons{
+  width: 50%;
+  display: flex;
+  text-align: center;
+  margin: 42px auto 42px auto;
+}
+div#buttons a{
+  text-decoration: none;
+  width: 200px;
+  background-color: rgb(102, 218, 119);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 0px auto 0px auto;
+}
+div#buttons a:hover{
+  background-color: rgb(52, 198, 81);
+}
+
+div#loginContent{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}

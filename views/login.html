@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="login.css">
+    <title>OAuth Demo</title>
+</head>
+
+<body>
+    <div id='header'>
+        <h3>Welcom to the Passport demo.</h3>
+        <p>If you allow, the site will log you in with google.</p>
+        <p>The image you've set for your google profile should appear.</p>
+    </div>
+
+    <div id='buttons'>
+        <a href="/auth/google">Log in with Google</a>
+        <a href="/auth/logout">Log out</a>
+    </div>
+
+    <div id='loginContent'>
+        {% if user %}
+        <img src={{ user.photo }} alt="Google profile image of user">
+        {% else %}
+        <p> If you have a google account</p>
+        <p> The picture you set for it will appear here</p>
+        {% endif %}
+    </div>
+</body>
+
+</html>
