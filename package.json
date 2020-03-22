@@ -1,9 +1,12 @@
 {
   "name": "passport-tut-net-ninja",
+  "homepage": "https://github.com/dsbarnes/OAuth-Demo",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "lambda-serve": "netlify lambda serve functions",
+    "lambda-build": "netlify lambda build functions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,9 +16,11 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.8.3",
+    "netlify-lambda": "^1.6.3",
     "nodemon": "^2.0.2",
     "nunjucks": "^3.2.0",
     "passport": "^0.4.1",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "serverless-http": "^2.3.2"
   }
 }

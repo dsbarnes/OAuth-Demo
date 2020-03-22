@@ -4,10 +4,10 @@ const passport = require('passport');
 const keys = require('./config/keys');
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
-// const profileRoutes = require('./routes/profile-routes');
 const authRoutes = require('./routes/auth-routes');
 // This import exists just for the code to be run!!
 const passportSetup = require('./config/passport-setup');
+const serverless = require('serverless-http')
 
 
 const app = express();
